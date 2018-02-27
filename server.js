@@ -6,9 +6,9 @@ var app = express();
 app.use(morgan('combined'));
 
 var article={
-    title:'ArticleOne'
-    heading:'Article One by Manjula'
-    date:'Feb 27,2018'
+    title:'ArticleOne',
+    heading:'Article One by Manjula',
+    date:'Feb 27,2018',
     content:` <p>
                 This is Article One and easy one.This is Article One and easy one.This is Article One and easy one.
             </p>
@@ -18,7 +18,7 @@ var article={
             <p>
                 This is Article One and easy one.This is Article One and easy one.This is Article One and easy one.
             </p>`
-}
+};
 
 function createTemp(data){
     var title=data.title;
