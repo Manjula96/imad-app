@@ -20,14 +20,16 @@ var articles={
                 This is Article One and easy one.This is Article One and easy one.This is Article One and easy one.
             </p>`
 },
-    articleTwo:{title:'ArticleTwo',
+    articleTwo:{
+    title:'ArticleTwo',
     heading:'ArticleTwo by Manjula',
     date:'Feb 25,2018',
     content:` <p>
                 This is ArticleTwo and easy one.This is ArticleTwo and easy one.This is ArticleTwo and easy one.
             </p>
             `},
-    articleThree:{title:'ArticleThree',
+    articleThree:{
+    title:'ArticleThree',
     heading:'ArticleThree by Manjula',
     date:'Feb 28,2018',
     content:` <p>
