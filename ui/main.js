@@ -4,13 +4,13 @@ var ele=document.getElementById('txt');
 ele.innerHTML='Changed to new one';
 
 var img=document.getElementById('im1');
-//var mar=0;
-//function move()
-//{
-   // mar=mar+10;
-   // img.style.mar=mar+'px';
-//}
+var marginLeft=0;
+function move()
+{
+    marginLeft=marginLeft+10;
+    img.style.marginLeft=marginLeft+'px';
+}
 img.onclick=function(){
-    img.style.marginLeft='100px';
-    //var interval=setInterval(move,100);
+    
+    var interval=setInterval(move,100);
 };
