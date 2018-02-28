@@ -19,7 +19,7 @@ var articles={
             <p>
                 This is Article One and easy one.This is Article One and easy one.This is Article One and easy one.
             </p>`
-},
+                },
     articleTwo:{
     title:'ArticleTwo',
     heading:'ArticleTwo by Manjula',
