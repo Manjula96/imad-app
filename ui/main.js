@@ -6,7 +6,7 @@ button.onclick=function(){
     
     request.onreadystatechange=function(){
         if(request.readystate===XMLHttpRequest.DONE){
-            if(request.status==200){
+            if(request.status===200){
                 counter=counter+1;
                 var span=document.getElementById('count');
                 span.innerHTML=counter.toString();
