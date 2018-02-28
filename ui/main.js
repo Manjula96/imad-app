@@ -11,6 +11,6 @@ var img=document.getElementById('im1');
    // img.style.mar=mar+'px';
 //}
 img.onclick=function(){
-    img.style.mar='100px';
+    img.style.marginLeft='100px';
     //var interval=setInterval(move,100);
 };
